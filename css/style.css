@@ -1,0 +1,651 @@
+
+/*GLOBAL CSS START*/
+*{
+	margin:0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container{
+	width:1140px;
+	margin:0 auto;
+}
+
+/*GLOBAL CSS END*/
+
+
+
+/*TOPBAR CSS START*/
+
+
+
+
+header {
+
+
+    background: linear-gradient(to right,#00867d,#0090a0);
+    float: left;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.logo{
+	float: left;
+	width:30%;
+}
+.menu{
+	float: left;
+    width:70%;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 20px;
+    transition: all 0.5s linear;
+
+}
+.menu ul li:last-child {
+    background:#00c29e;
+
+}
+.menu ul li a:hover {
+    background:#00c29e;
+
+}
+
+/*TOPBAR CSS END*/
+
+/*BANNER CSS START*/
+
+section.banner {
+    background-image: url(../image/hero.jpg);
+    float: left;
+    width: 100%;
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+section.banner:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+} 
+
+
+.banner .text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+
+span.bg {
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.btn {
+    margin: 0 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    border: 2px solid;
+    margin-top: 65px;
+    border-radius: 5px;
+}
+.btn_b1 {
+    background: linear-gradient(to right,#00867d,#0090a0);
+}
+
+.btn_b2:hover {
+    background: linear-gradient(to right,#00867d,#0090a0);
+}
+
+.btn_b2:hover{
+
+    background: linear-gradient(to right,#00867d,#0090a0);
+}
+
+
+
+/*BANNER CSS END*/
+
+
+
+/*SERVICES CSS START*/
+
+section.services {
+    background: #e9e9e9;
+    padding: 60px 0;
+    float: left;
+    width: 100%;
+}
+
+.texts {
+    text-align: center;
+}
+
+.texts h2 {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 35px;
+}
+
+.texts p {
+    margin: 30px 0 40px;
+    width: 70%;
+    font-size: 17px;
+    padding: 0;
+    margin-left: 13%;
+}
+
+.inside_box {
+    width: 22%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 1.3%;
+    text-align: center;
+    background: #fff;
+    max-height: 615px;
+}
+
+.bg1 {
+    border-bottom: 2px solid;
+    padding: 15px 0;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p.s1 {
+    padding: 22px 30px;
+    line-height: 1.5;
+}
+p {
+    font-size: 22px;
+    padding: 25px 30px;
+    line-height: 1.6;
+    color: #222;
+}
+/*SERVICES CSS END
+
+
+
+/*WORK START*/
+
+
+
+section.work {
+    width: 100%;
+    float: left;
+}
+
+.work1 {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.work1 h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 20px 0 40px;
+    color: #4c4c4c;
+}
+.work2 {
+    width: 32%;
+    display: inline-block;
+    text-align: end;
+}
+
+.im{
+    width: 220px;
+}
+
+
+.textp {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 8px;
+}
+
+
+.work3 {
+    width: 59%;
+    float: right;
+    text-align: initial;
+}
+ul {list-style: none;}
+
+span.number {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 3px solid #04b3a7;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+    font-size: 40px;
+    font-family: none;
+}
+
+.work3 li {
+    padding: 15px 0;
+    font-size: 23px;
+}
+
+img.im5 {
+    width: 200px;
+    margin-left: 2.5%;
+    margin-top: 10%;
+}
+
+/*WORK END*/
+
+
+/*CITIES CSS*/
+
+section.cities {
+    float: left;
+    width: 100%;
+    background: #e9e9e9;
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #222;
+}
+
+
+img.im6 {
+    width: 100%;
+    min-height: 220px;
+}
+
+
+.photos {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+
+.photo {
+    margin: 20px 15px;
+    width: 22%;
+    display: inline-block;
+} 
+
+
+.t2{
+display:block;
+text-transform: uppercase;
+font-size: 22px;
+color: #459075;
+margin: 20px 0 25px;
+   }
+
+
+img#sk {
+    width: 40px;
+    
+}
+
+a.a1 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+/*CITIES CSS END*/
+
+
+
+/*Testimonial Css START*/
+
+
+.testimonial{
+    background-image:url(../image/ts1.png);
+    min-height: 450px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.ts2 {
+    color: #fff;
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ts2_text2 {
+    color: #fff;
+    font-size: 20px;
+    width: 90%;
+    display:inline-block;
+}
+
+h1.ts2_text1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    
+}
+
+.ts3 {
+    width: 80%;
+}
+
+
+
+
+.s2 {
+    font-size: 103px;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    margin-right: 16px;
+}
+
+img.ts3_img {
+    border-radius: 70px;
+    background-size: cover;
+    width: 100px;
+}
+
+span.ts3_img {
+    position: absolute;
+    top: 80%;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+/*Testimonial Css END*/
+
+
+
+/*PLAN CSS START*/
+section.plan {
+    float: left;
+    padding: 40px 0;
+    width: 100%;
+    background: #e9e9e9;
+}
+
+.plan_text {
+    text-align: center;
+    font-size: 35px;
+    color: #545454;
+    margin-bottom: 30px;
+}
+.text_boxes {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+span.txt {
+    font-size: 35px;
+    text-transform: uppercase;
+    display: inherit;
+}
+.text_box1 {
+    width: 31.2%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin: 0 12px;
+}
+
+span.tt {
+    font-size: 40px;
+}
+
+a.t {
+    display: inline-block;
+    font-size: 24px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+li.tt1 {
+    font-size: 19px;
+    padding: 12px 0;
+    position: relative;
+    text-align: initial;
+    left: 20px;
+    width: 325px;
+    float: left;
+    margin-bottom: 1px;
+}
+
+i#tt2 {
+    padding-right: 15px;
+    color: #008882;
+}
+
+.btn1 {
+    padding: 14px 25px;
+    font-size: 15px;
+    background: transparent;
+    border: 4px solid #008882;
+    border-radius: 10px;
+    margin: 35px 0 15px;
+}
+.btn1:hover{
+    background:#008882;
+    color: #fff;
+}
+
+i#tt3 {
+    padding-right: 15px;
+    
+}
+.btn2 {
+    padding: 14px 25px;
+    font-size: 15px;
+    background: transparent;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    margin: 35px 0 15px;
+    color: #fff;
+}
+
+.btn2:hover{
+    background:#fff;
+    color:#008882;
+}
+
+div#box2 {
+    background: #008882;
+    color: #fff;
+}
+
+/*PLAN CSS END*/
+
+
+
+/*CONNECT CSS START*/
+section.connect {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+}
+
+h1.cnt_1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: #818181;
+    margin-bottom: 10px;
+}
+
+.connect_box {
+    padding: 20px 0;
+    margin-left: 25%;
+    width: 600px;
+}
+input[type="text"], [type="email"] {
+    width: 96%;
+    padding: 15px 4px 15px 15px;
+    margin: 15px 0;
+    border: 1px solid #008882;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #e9e9e9;
+}
+
+::-webkit-input-placeholder{
+color:#383838;
+}
+
+select {
+    width: 100%;
+    background: #e9e9e9;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #008882;
+    border-radius: 5px;
+    color:#383838;
+    font-size: 18px;
+   
+}
+
+/*CONNECT CSS END*/
+
+
+
+
+/*FOOTER CSS START*/
+.footer{
+    background-image:linear-gradient(to right, rgba(0, 16, 11, 0.92), 
+        rgba(0, 16, 11, 0.92)),url(../image/prt2.jpg);
+    min-height: 600px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+input#radio {
+    width: 21px;
+    height: 21px;
+}
+
+.map {
+    width: 51%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+i#place {
+    color: #fff;
+    position: absolute;
+    font-size: 35px;
+    bottom: 15%;
+    left: 19%;
+}
+
+
+.lst {
+    background: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.footer_text {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+
+li.lst1 {
+    padding: 10px 0;
+}
+
+
+.lst2 {
+    width: 320px;
+    text-align: initial;
+    position: absolute;
+    margin-left: 30px;
+    color:#fff;
+}
+
+h1.ls {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    bottom: 30%;
+    margin-left: 47px;
+}
+
+.footer_img {
+    position: absolute;
+    left: 55%;
+    bottom: 17%;
+}
+
+.footer_img {
+    position: absolute;
+}
+
+img.ls1 {
+    margin-right: 10px;
+}
+
+/*FOOTER CSS END*/
